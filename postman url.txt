@@ -1,0 +1,98 @@
+https://sanskrutils7768-3453931.postman.co/workspace/e5602a8a-62bc-4f95-89a4-bf7f98e7429a/request/58700715-aaefa7b9-4a1d-49e2-b74b-9ddfd99f0457?sideView=agentMode
+
+
+
+
+postman 
+1.create a workspace
+2.create a collection
+3.add request
+rest api are in the form of URI = URL+URN(End point)
+
+{
+  "id": 0,
+  "category":  {
+                  "id": 0,
+                  "name": "Dog"
+                },
+  "name": "franky",
+  "photoUrls": [
+                 "string"
+               ],
+  "tags": [
+             {
+               "id": 0,
+               "name": "string"
+             }
+          ],
+ "status": "available"
+ }
+
+
+"id": 9223372000001085585, --1
+ "id": 9223372000001085588, --2
+"id": 9223372000001085593, --3
+
+everytime i create a new pet there will be new id generated in the server automatically.
+each category will create a unique id(from example)
+each tag will create a unique id 
+
+{} - expects path parameter
+for creation and updation a body is must.
+for post,put,patch body is required.
+
+
+
+put -------- create          &        update
+            (no id passed)         (id is passed)
+
+
+reqres = response - expected result
+
+GIT HUB
+
+- dev will have separate repository
+- from diff location
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
